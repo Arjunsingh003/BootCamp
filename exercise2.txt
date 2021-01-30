@@ -1,0 +1,62 @@
+10. power of x^y:
+
+ var z=userInput[0].split(" ");
+  console.log(z);
+   x= z[0];
+   y=z[1];
+ var dd= Math.pow(x,y);
+  console.log(dd);
+
+Output:
+[ '2', '5' ]
+32
+
+
+
+11.calculate simple Interest:
+
+var a=userInput[0].split(" ");
+ p=a[0]; r=a[1]; t=a[2];
+ var s=p*r*t;
+ console.log(s);
+
+Output:
+250000
+
+
+12.area of an equilateral triangle;
+
+var a=userInput[0].split(" ");
+ var et=(1/4*1.732*a*a);
+ console.log(et);
+
+Output:  input
+62.352   12
+
+
+
+13.area of isosceles triangle:
+
+ var a=userInput[0].split(" ");
+ b=a[0]; h=a[1];
+ var ait=1/2*b*h;
+ console.log(ait);
+ 
+
+Output:  Input:
+6        2 6
+
+
+
+14.volume of sphere
+
+
+var r=userInput[0].split(" ");
+ var d= Math.pow(r,3);
+
+ var sphere=4/3*3.14*d;
+ console.log(sphere);
+ 
+
+Output:                Input:
+33.49333333333333      2

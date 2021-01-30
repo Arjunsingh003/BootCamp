@@ -1,0 +1,140 @@
+const readline = require("readline");
+
+const inp = readline.createInterface({
+  input: process.stdin
+});
+const userInput= [];
+inp.on("line", (data) => {
+userInput.push(data);
+});
+inp.on("close", () => {
+ //START HERE
+    
+  console.log(userInput);
+ //END HERE
+});
+
+
+
+
+
+Adding multiple lines:                                                            Output:
+input:3                                                                                  3
+      1 2 3                                                                            [ '1', '2', '3' ]
+      5 5 5                                                                            [ '5', '5', '5' ]
+                                                                                  3
+                                                                                  6
+                                                                                  15
+                                                                                  24
+                                                                                  Execution Time:
+                                                                                  0.074s
+                                                                                  Memory Used:
+ var a= userInput[0];                                                                  
+ var b=userInput[1];
+ var c=userInput[2];
+  var ee=b.split(" ");
+  var ff=c.split(" ");
+  console.log(a);
+  console.log(ee);
+  console.log(ff);
+var hh=parseInt(ee[0])+parseInt(ee[1])+parseInt(ee[2]);
+  var ii=parseInt(ff[0])+parseInt(ff[1])+parseInt(ff[2]);
+ console.log(a);
+ console.log(hh);
+ console.log(ii);
+ var sum=parseInt(a)+parseInt(hh)+parseInt(ii);
+ console.log(sum);
+
+
+
+3.square of a number
+
+ var a=userInput[0];
+    var hh= (a*a);
+    console.log(hh);
+
+output:
+16
+
+
+
+
+4.Addition of three numbers:
+
+ var dd=userInput[0].split(" ");
+    var tt= +(dd[0])+ +(dd[1])+ +(dd[2]);
+    console.log(tt);
+
+Output:
+15
+
+
+
+5.celcius to fahrenheit:
+
+var a=userInput[0];
+  console.log(a);
+  var data=(9/5)*a+32;
+  console.log(data);
+
+Output:
+12
+53.6
+
+
+
+6.convert metres to miles:
+
+var a=userInput[0];
+  console.log(a);
+  var data=(0.00062137119223733)*a;
+  console.log(data);
+
+
+Output:
+12
+0.00745645430684796
+
+
+
+7.pounds to kgs:
+
+ var a=userInput[0];
+  console.log(a);
+  var data=(0.45359237)*a;
+  console.log(data);
+
+Output:
+12
+5.4431084400000005
+
+
+
+
+
+8. Batting average:
+
+ var a=userInput[0].split(" ");
+  console.log(a);
+  var BtAvg=a[0]/a[1];
+  console.log(BtAvg);
+
+Output:
+[ '12', '20' ]
+0.6
+
+
+9.Calculate five test scores and print their average
+
+var a=userInput[0].split(" ");
+  console.log(a);
+  var Avg=parseInt(a[0])+parseInt(a[1])+parseInt(a[2])+parseInt(a[3])+parseInt(a[4]);
+  console.log(Avg);
+  var dd=(Avg)/5;
+  console.log(dd);
+
+Output:
+[ '12', '20', '30', '40', '50' ]
+152
+30.4
+ 

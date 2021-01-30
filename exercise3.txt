@@ -1,0 +1,44 @@
+15. Area of Triangle:
+
+ var tan=userInput[0].split(" ");
+console.log(tan);
+ bsc=tan[0]; ht=tan[1];
+ var area= 1/2*bsc*ht;
+ console.log(area);
+
+Output:           Input:
+[ '2', '4' ]      2 4
+4
+ 
+
+16. give actual cost, sold cost and calculate discount:
+
+
+var cst=userInput[0].split(" ");
+ console.log(cst);
+ ac=cst[0]; sc=cst[1];
+ var dc= ac-sc;
+ console.log(dc);
+
+Output:                 Input
+[ '1999', '1599' ]      1999   1599
+400
+
+
+17. given radius find diameter, area, circumference of a circle:
+
+
+var rad=userInput[0];
+ pi=3.14;
+ var d=2*rad;
+ console.log(d);
+ var area=pi*rad*rad;
+ console.log(area);
+ let circ=2*pi*rad;
+ console.log(circ);
+ 
+
+Output:     Input
+4           2
+12.56
+12.56
